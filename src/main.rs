@@ -4,10 +4,8 @@
 extern crate lazy_static;
 
 use std::collections::HashMap;
-use std::sync::Mutex;
 
 mod ast;
-
 use ast::*;
 
 pub struct System {
